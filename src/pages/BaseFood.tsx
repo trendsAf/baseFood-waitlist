@@ -26,7 +26,7 @@ const BaseFood = () => {
 		<>
 			<div className="">
 				<div className="relative waitlist h-[90vh]">
-					<div className="absolute inset-0 z-20 bg-black opacity-50 h-full"></div>
+					<div className="absolute inset-0 z-20 bg-black opacity-30 h-full"></div>
 					<div className="absolute z-30 h-full flex items-center w-full text-white">
 						{WaitlistData.map((data, idx) => (
 							<WaitlistCard

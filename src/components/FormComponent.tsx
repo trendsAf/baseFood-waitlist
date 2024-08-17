@@ -9,7 +9,7 @@ const FormComponent = ({ toggleModal }: FormComponentProps) => {
     <div className="w-full h-screen bg-black/50 fixed inset-0 flex flex-col items-center justify-center z-50 backdrop-blur-sm">
       <div className="bg-white lg:w-1/2 md:w-4/5 w-[90%] py-5 md:px-10 rounded-lg">
         <div className="flex items-center justify-between m-6">
-          <h1 className="text-center font-heading md:text-xl">
+          <h1 className="text-center heading-font md:text-xl">
             Enter your information below
           </h1>
           <MdOutlineClose

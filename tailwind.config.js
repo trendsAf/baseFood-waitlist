@@ -4,8 +4,8 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				heading: ["Space Grotesk", "sans-serif"],
-				body: ["Helvetica Neue", "sans-serif"],
+				heading: ["Space Grotesk"],
+				body: ["Helvetica Neue"],
 			},
 		},
 	},

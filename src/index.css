@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.heading-font{
+	font-family: "Ubuntu Mono", monospace;
+}
+
 @layer utilities {
 	body {
 		font-family: "Helvetica Neue", sans-serif;
@@ -14,27 +20,18 @@
 		background-repeat: no-repeat;
 		object-fit: cover;
 
-		animation: animateBG 30s ease-in-out infinite alternate-reverse;
+		animation: animateBG 20s ease-in-out infinite alternate-reverse;
 	}
 
 	@keyframes animateBG {
 		0% {
 			background-image: url("./assets/image1.jpg");
 		}
-		20% {
-			background-image: url("./assets/image4.jpg");
-		}
-		40% {
-			background-image: url("./assets/image3.jpg");
-		}
-		60% {
-			background-image: url("./assets/image4.jpg");
-		}
-		80% {
-			background-image: url("./assets/image5.jpg");
+		50% {
+			background-image: url("./assets/image2.jpg");
 		}
 		100% {
-			background-image: url("./assets/image1.jpg");
+			background-image: url("./assets/image4.jpg");
 		}
 	}
 	._shadow {
