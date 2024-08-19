@@ -25,17 +25,17 @@ const WaitlistCard: React.FC<WaitlistCardProps> = ({
 			<div
 				className={`${
 					buttonRight
-						? "w-full lg:flex-row flex-col justify-between space-y-5"
-						: "lg:w-4/6 w-full flex-col"
+						? "w-full lg:flex-row flex-col justify-between space-y-5 "
+						: "lg:w-4/6 w-full flex-col space-grotesk"
 				}  flex`}
 			>
 				<div className={`${buttonRight ? "lg:w-1/2 space-y-5" : "space-y-5"}`}>
 					<h1
 						className={`${
 							buttonRight
-								? "md:text-4xl text-xl text-center lg:text-start"
+								? "md:text-4xl text-xl text-center lg:text-start space-grotesk"
 								: "2xl:text-5xl text-2xl md:text-4xl"
-						} heading-font font-black hpver:bg-[#]`}
+						} space-grotesk hpver:bg-[#]`}
 					>
 						{headline}
 					</h1>
@@ -48,7 +48,7 @@ const WaitlistCard: React.FC<WaitlistCardProps> = ({
 				>
 					<button
 						onClick={button1Action}
-						className=" heading-font px-6 py-2 bg-[#2245FE] hover:bg-gradient-to-r hover:from-[#2245FE] hover:to-blue-700 md:text-xl text-white rounded-[8px]"
+						className=" space-grotesk px-6 py-2 bg-[#2245FE] hover:bg-gradient-to-r hover:from-[#2245FE] hover:to-blue-700 md:text-xl text-white rounded-[8px]"
 					>
 						{button1Text}
 					</button>
@@ -56,7 +56,7 @@ const WaitlistCard: React.FC<WaitlistCardProps> = ({
 						onClick={button2Action}
 						className={`${
 							button2Required ? "block" : "hidden"
-						} px-6 py-2 heading-font md:text-xl rounded-[8px] bg-white text-[#2245FE]`}
+						} px-6 py-2 !space-grotesk1 md:text-xl rounded-[8px] bg-white text-[#2245FE]`}
 					>
 						{button2Text}
 					</button>
