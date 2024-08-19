@@ -2,17 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
-.heading-font{
-	font-family: "Ubuntu Mono", monospace;
-}
-
 @layer utilities {
-	body {
-		font-family: "Helvetica Neue", sans-serif;
+	@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Space+Mono:wght@700&display=swap");
+	.space-grotesk {
+		font-family: "Space Grotesk", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 900;
+		font-style: normal;
 	}
-
 	.waitlist {
 		background-image: url("./assets/image1.jpg");
 		background-size: cover;
