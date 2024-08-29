@@ -18,7 +18,7 @@ const Navbar = () => {
 				</div>
 				<div>
 					<button
-						className="bg-[#2245fe] hover:bg-gradient-to-r hover:from-[#2245FE] hover:to-blue-700 text-white space-grotesk px-4 text-xs lg:text-lg py-2 rounded-[8px]"
+						className="bg-[#2245fe] hover:bg-gradient-to-r hover:from-[#2245FE] hover:to-blue-700 text-white px-4 text-xs lg:text-lg py-2"
 						onClick={() => handleJoinWaitlist()}
 					>
 						Join waitlist

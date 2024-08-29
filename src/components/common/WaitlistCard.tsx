@@ -39,7 +39,7 @@ const WaitlistCard: React.FC<WaitlistCardProps> = ({
 					>
 						{headline}
 					</h1>
-					<p className="lg:text-lg md:text-2xl text-sm w-full">{subtitle}</p>
+					<p className="lg:text-lg font-body md:text-2xl font-[300] text-sm w-full">{subtitle}</p>
 				</div>
 				<div
 					className={`${
@@ -48,7 +48,7 @@ const WaitlistCard: React.FC<WaitlistCardProps> = ({
 				>
 					<button
 						onClick={button1Action}
-						className=" space-grotesk px-6 py-2 bg-[#2245FE] hover:bg-gradient-to-r hover:from-[#2245FE] hover:to-blue-700 md:text-xl text-white rounded-[8px]"
+						className="px-6 py-2 bg-[#2245FE] hover:bg-gradient-to-r hover:from-[#2245FE] leading-6 tracking-normal hover:to-blue-700 md:text-lg text-white"
 					>
 						{button1Text}
 					</button>
@@ -56,7 +56,7 @@ const WaitlistCard: React.FC<WaitlistCardProps> = ({
 						onClick={button2Action}
 						className={`${
 							button2Required ? "block" : "hidden"
-						} px-6 py-2 !space-grotesk1 md:text-xl rounded-[8px] bg-white text-[#2245FE]`}
+						} px-6 py-2 leading-6 md:text-xl bg-white text-[#2245FE]`}
 					>
 						{button2Text}
 					</button>
